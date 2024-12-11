@@ -1,0 +1,27 @@
+*{
+     
+
+
+form {
+     border: 1px solid #aaa;
+     width: 500px;
+     padding: 20px 100px 20px 40px;
+     margin-left: 10px;
+     border-radius: 8px;
+   }
+
+   input[type='text'],
+   input[type='email'],
+select,
+   textarea {
+     width: 100%;
+     font-size: 100%;
+     padding-block: 6px;
+     border: 1px solid silver;
+   }
+
+
+select {
+padding-right: calc(100%+6px);
+}
+}
